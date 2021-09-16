@@ -89,7 +89,7 @@
         vector<Edge> min_e(n);
         min_e[0].w = 0;
     
-        for (int i=0; i<n; ++i) {
+        for (int i=0; i < n; ++i) {
             int v = -1;
             for (int j = 0; j < n; ++j) {
                 if (!selected[j] && (v == -1 || min_e[j].w < min_e[v].w))
@@ -114,6 +114,6 @@
     
         cout << total_weight << endl;
     }
-    </pre>
+</pre>
 </body>
 </html>
